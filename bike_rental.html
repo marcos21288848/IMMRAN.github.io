@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bike & Skate Rentals | IMMRAN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8fff8;
+            color: #023047;
+            margin: 0;
+            padding: 0;
+        }
+
+        header,
+        footer {
+            background-color: #023047;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+            background-color: #023047;
+            color: white;
+            /* Example background color */
+            padding: 10px;
+            /* Example padding */
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        h1 {
+            color: #10b981;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        .rent-btn {
+            display: inline-block;
+            background: #10b981;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+            transition: transform 0.3s;
+        }
+
+        .rent-btn:hover {
+            background: #0d8a67;
+        }
+
+        .bike-gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 2rem;
+            margin: 60px;
+        }
+
+        .bike-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 250px;
+            text-align: center;
+        }
+
+        .bike-card img {
+            width: 100%;
+            height: 250px;
+        }
+
+        .bike-card .price {
+            background-color: #10b981;
+            color: white;
+            padding: 0.5rem;
+            font-weight: bold;
+        }
+
+        .footer-links {
+            margin-top: 10px;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: underline;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>IMMRAN - Bike & Skate Rentals</h1>
+    </header>
+
+    <div class="container">
+        <h2>Eco-Friendly Transport At Your Fingertips</h2>
+        <p>
+            IMMRAN provides daily and weekly rentals for:
+        </p>
+        <ul>
+            <li>Standard Bicycles</li>
+            <li>Electric Bikes</li>
+            <li>Electric Scooters</li>
+            <li>Manual & Electric Skates</li>
+        </ul>
+        <p>
+            Our vehicles are maintained to the highest standards, and available at multiple stations across the city.
+        </p>
+        <p>
+            Book now and start riding toward a greener, faster future.
+        </p>
+        <a href="#rent" class="rent-btn">Rent Now</a>
+    </div>
+
+    <!-- ✅ Image Gallery with Rental Prices -->
+    <div class="bike-gallery">
+        <div class="bike-card">
+            <img src="images/bike-ren/bike1.jpg" alt="Standard Bike">
+            <div class="price">From $5/day</div>
+        </div>
+        <div class="bike-card">
+            <img src="images/bike-ren/e-bike.jpg" alt="Electric Bike">
+            <div class="price">From $12/day</div>
+        </div>
+        <div class="bike-card">
+            <img src="images/bike-ren/scooter.jpg" alt="Electric Scooter">
+            <div class="price">From $10/day</div>
+        </div>
+        <div class="bike-card">
+            <img src="images/bike-ren/skates.jpg" alt="Electric Skates">
+            <div class="price">From $8/day</div>
+        </div>
+        <div class="bike-card">
+            <img src="images/bike-ren/normal-skates.jpg" alt="Normal Skates">
+            <div class="price">From $4/day</div>
+        </div>
+    </div>
+    <br><br><br>
+    <footer>
+        &copy; 2025 IMMRAN. Move Smart. Breathe Easy.
+        <div class="footer-links">
+            <a href="IMMRAN.html#contact">Contact Us</a>
+            <br>
+            <a href="IMMRAN.html">Home page</a>
+        </div>
+    </footer>
+</body>
+
+</html>
